@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smooth Scroll Landing Page</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Poiret+One&family=Share&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <div class="section-container">
+        <nav class="section-navbar hidden">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre-mi">Sobre Mi</a></li>
+                <li><a href="#conocimientos">Conocimientos</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+            </ul>
+        </nav>
+        <!-- SECCIÓN HOME -->
+        <section id="home" class="home">
+            <div>
+                <div class="titulo">Felipe Acosta</div>
+                <div class="subtitulo">
+                    <div>{ Desarrollador Web }<span class="blinkUnderline">_</span></div>
+                </div>
+                <div class="btnSobreMi">
+                    <a href="#sobre-mi">Trabajemos Juntos!</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN SOBRE MI -->
+        <section id="sobre-mi" class="sobre-mi">
+            <div class="container">
+                <div class="row">
+                  <div class="col-sm imagenPerfil">
+                    <img src="assets/piplash.png" alt="">
+                    <div class="encuentrame">
+                        <a href="https://www.linkedin.com/in/felipe-acosta-991689195/" target="_blank"><img src="assets/linkedin.png" alt="" class="imagenEncuentrame"></a>
+                        <a href="https://github.com/Piplash?tab=repositories" target="_blank"><img src="assets/github.png" alt="" class="imagenEncuentrame"></a>
+                    </div>
+                  </div>
+                  <div class="col-sm descripcion">
+                    <div class="titulo">
+                        ¿Quién soy?
+                    </div>
+                    <p>	
+                        Mi nombre es Felipe Acosta y soy Desarrollador Web titulado del Instituto Profesional INACAP. Soy una persona proactiva, comprometida y siempre dispuesta a
+                        aprender y perfeccionarse. Dentro del Desarrollo Web, lo que me mueve es el Front-End y es por lo mismo que poseo conocimientos en Html, JavaScript, TypeScript, CSS, Angular y
+                        Bootstrap.
+                    </p>
+                    <p>	
+                        Me agradan los sitios sencillos, limpios y el código ordenado. La idea de plasmar visualmente lo requerido, ya sea desde cero o a través de modificaciones, y 
+                        ver cómo el código poco a poco cobra vida, es lo que me motiva.
+                    </p>
+                    <p>	
+                        ¿En cuanto a mí? Me gustan los gatos, el té cuando hace frío y jugar <i>souls like games</i>.
+                    </p>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <!-- SECCIÓN CONOCIMIENTOS -->
+        <section id="conocimientos" class="conocimientos">
+            <div class="container">
+                <h1 class="titulo">Conocimientos</h1>
+
+                <div class="row">
+                  <div class="col-sm">
+                    <h3>Lenguajes</h3>
+
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Html</li>
+                        <li class="list-group-item">Php</li>
+                        <li class="list-group-item">JavaScript</li>
+                        <li class="list-group-item">TypeScript</li>
+                        <li class="list-group-item">CSS</li>
+                    </ul>
+                    
+                  </div>
+                  <div class="col-sm">
+                    <h3>Frameworks</h3>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Angular</li>
+                      <li class="list-group-item">Bootstrap</li>
+                  </ul>
+                  </div>
+                  <div class="col-sm">
+                    <h3>Bases de Datos</h3>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Angular</li>
+                        <li class="list-group-item">Bootstrap</li>
+                    </ul>
+                  </div>
+                  <div class="col-sm">
+                    <h3>Otros</h3>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Inglés</li>
+                        <li class="list-group-item">Word</li>
+                        <li class="list-group-item">Excel</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <section id="portafolio" class="portafolio">
+          <div class="container">
+            <h1 class="titulo">Portafolio</h1>
+            
+            <div id="carouselPortafolio" class="carousel slide" data-bs-ride="false">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselPortafolio" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselPortafolio" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselPortafolio" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselPortafolio" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/Portafolio-Basico.png" class="d-block w-100" alt="Portafolio Basico">
+                  <div class="carousel-caption d-md-block">
+                    <h5>Portafolio Sencillo</h5>
+                    <h6>Desarrollado en Angular</h6>
+                    <span class="verGitHub"><a href="https://github.com/Piplash/facosta-portafolio" target="_blank">Ver en GitHub</a></span>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/Carousel1.png" class="d-block w-100" alt="Carousel">
+                  <div class="carousel-caption d-md-block">
+                    <h5>Carousel</h5>
+                    <h6>Desarrollado en Angular</h6>
+                    <span class="verGitHub"><a href="https://github.com/Piplash/Tarjeta-Con-Carousel" target="_blank">Ver en GitHub</a></span>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/Landing1.png" class="d-block w-100" alt="Landing Page">
+                  <div class="carousel-caption d-md-block">
+                    <h5>Landing Page Simple</h5>
+                    <h6>Desarrollado en Bootstrap</h6>
+                    <span class="verGitHub"><a href="https://github.com/Piplash/Landing-Page" target="_blank">Ver en GitHub</a></span>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/AsukaDaily1.png" class="d-block w-100" alt="Twitter Bot">
+                  <div class="carousel-caption d-md-block">
+                    <h5>Twitter Bot</h5>
+                    <h6>Desarrollado con JavaScript</h6>
+                    <span class="verGitHub"><a href="https://github.com/Piplash/Asuka-Twitter-Bot" target="_blank">Ver en GitHub</a></span>
+                  </div>
+                </div>
+                
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselPortafolio" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselPortafolio" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              </button>
+            </div>
+
+          </div>
+        </section>
+    </div>
+
+</body>
+</html>
